@@ -47,7 +47,7 @@ class CheckStatusNewNameTest(unittest.TestCase):
         "id_company":5}]  
 
         self.df_data_base = pd.DataFrame(lst_dict_data_base)
-        
+         
     def test_no_company_in_finnhub(self):
         """Test case where empty finnhub DataFrame"""
         columns=["name", "logo", "weburl", "phone", "ipo"]
